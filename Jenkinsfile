@@ -258,8 +258,8 @@ output:
                     }
                     post {
                         always {
-                            jiraSendDeploymentInfo environmentId: 'torizon-ota',
-                                                   environmentName: 'Torizon OTA',
+                            jiraSendDeploymentInfo environmentId: 'torizon-maivin',
+                                                   environmentName: 'Torizon for Maivin',
                                                    environmentType: 'production'
                         }
                     }
