@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="torizoncore/default.xml"/>
+
+    <!-- <remote alias="repo" fetch="https://github.com/meta-rust" name="rust"/> -->
+    <!-- <remote alias="repo" fetch="https://github.com/DeepviewML" name="deepview"/> -->
+    <remote alias="repo" fetch="https://github.org/MaivinAI" name="maivin"/>
+
+    <!-- <project name="meta-rust" path="layers/meta-rust" remote="rust" revision="d42984ff9a9fad9ced37d95a89af1b2b84f957e9"/> -->
+    <!-- <project name="meta-deepview" path="layers/meta-deepview" remote="deepview" revision="86798ff10c7004301e56984cfaa58e276b427b2c"/> -->
+    <project name="meta-maivin" path="layers/meta-maivin" remote="maivin" revision="dc66df09826d6ff29a31059d4899cdf940fc82a1"/>
+</manifest>
