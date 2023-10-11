@@ -2,9 +2,11 @@
 <manifest>
     <include name="torizoncore/default.xml"/>
 
+    <remote alias="repo" fetch="https://github.com/meta-rust" name="rust"/>
     <remote alias="repo" fetch="https://github.com/DeepviewML" name="deepview"/>
     <remote alias="repo" fetch="ssh://git@bitbucket.org/au-zone" name="au-zone"/>
 
+    <project name="meta-rust" path="layers/meta-rust" remote="rust" revision="d42984ff9a9fad9ced37d95a89af1b2b84f957e9"/>
     <project name="meta-deepview" path="layers/meta-deepview" remote="deepview" revision="86798ff10c7004301e56984cfaa58e276b427b2c"/>
-    <project name="meta-maivin" path="layers/meta-maivin" remote="au-zone" revision="8ade65b8b1fcb8e72cee938f6234bfe727b3389e"/>
+    <project name="meta-maivin" path="layers/meta-maivin" remote="au-zone" revision="88350bd6e372d012ef12e2b94f0ac06c9e2931a1"/>
 </manifest>
